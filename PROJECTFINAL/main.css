@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+header {
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header nav {
+    height: 50px;
+    padding: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+header nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+header nav .nav {
+    padding: 8px;
+    align-content: center;
+    left: 50%;
+    top: 50%;
+}
+header nav .login {
+    border: gold solid 2px;
+    float: right;
+    padding: 6px;
+    border-radius: 5px;
+}
+header nav ul li {
+    text-decoration: none;
+    padding: 10px 30px;
+    cursor:pointer ;
+    transition: 0.25s;
+}
+header nav ul li:hover {
+    opacity: 80%;
+}
+header a{
+    text-decoration: none;
+    color: gold;
+}
+
+section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 110px;
+}
+section .hero {
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background-image: url(./img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+section .hero-text {
+    text-align: center;
+    padding: 200px;
+    font-size: 200%;
+    font-weight: bold;
+}
+section .main-hero-text {
+    font-size: 100%;
+}
+
+.tabel-toko {
+    padding: 100px 5% 0px 5%;
+    background-color: transparent;
+}
+h2 {
+    margin-bottom: 50px;
+}
+table{
+    width: 100%;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+table tr th {
+    background-color: black;
+    padding: 10px;
+    color: gold;
+}
+table tr {
+    border: grey solid
+}
+table tr td {
+    padding: 11px;
+}
+table .list {
+    transition: 0.25s;
+}
+table .list:hover {
+    background-color: grey;
+    opacity: 80%;
+}
+
+.members {
+    padding: 5%;
+    background-color: black;
+    opacity: 80%;
+}
+.members .kelompok {
+    display: inline-flex;
+    width: 86%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.members img {
+    border-radius: 50%;
+    width:100%;
+    padding: 12%;
+}
